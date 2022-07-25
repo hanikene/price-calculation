@@ -11,8 +11,6 @@ const CartProduct = ({
 }) => {
   const dispatch = useDispatch();
 
-  console.log(`CART ${data.id}`);
-
   if (data.quantity < 1) return null;
   return (
     <div className="CartProduct">

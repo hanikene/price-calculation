@@ -19,8 +19,6 @@ const PriceSummary = () => {
     0
   );
 
-  console.log("PRICE");
-
   return (
     <div className="PriceSummary">
       <p className="text">Subtotal</p>

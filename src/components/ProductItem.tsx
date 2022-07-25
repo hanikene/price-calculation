@@ -6,8 +6,6 @@ import Stars from "./Stars";
 const ProductItem = ({ data }: { data: Product }) => {
   const dispatch = useDispatch();
 
-  console.log(`HOME ${data.id}`);
-
   return (
     <div className="ProductItem">
       <div className="container">
